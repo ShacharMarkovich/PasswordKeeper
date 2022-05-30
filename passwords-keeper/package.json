@@ -1,0 +1,58 @@
+{
+  "name": "passwords-keeper",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "focus-trap-react": "^8.1.0",
+    "hybrid-crypto-js": "^0.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-draggable": "^4.4.3",
+    "react-hook-form": "^6.9.2",
+    "react-native-rsa": "0.0.3",
+    "react-scripts": "^3.4.4",
+    "reactjs-popup": "^2.0.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "webext-redux": "^2.1.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "cd API && flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint-flask"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.6"
+  }
+}
